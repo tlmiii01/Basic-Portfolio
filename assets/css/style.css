@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 3px solid #cccccc;
+    margin: 0;
+}
+
+.main-body{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+img {
+    height: 163px;
+    width: 244px;
+}
+
+#logo {
+    float: left;
+    padding: 20px;
+    font-size: 32px;
+    background: #4aaaa5;
+    color: #fff;
+}
+
+.main-buttons {
+    position: absolute;
+    border: 0;
+    background: none;
+    padding: 1.6rem 0;
+    font-size: 18px;
+    width: 5rem;
+}
+
+#contactButton {
+    right: 0rem;
+}
+
+#portButton {
+    right: 5rem;
+}
+
+#aboutButton {
+    right: 10rem;
+}
+
+.clearFix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
