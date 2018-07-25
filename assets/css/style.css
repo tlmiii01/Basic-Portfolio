@@ -41,11 +41,20 @@ header {
     border: 2px solid #dddddd;
 }
 
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+    color: #4aaaa5;
+    margin: 0;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 20px;
+}
+
 img {
     height: 163px;
     width: 244px;
     float: left;
-    margin-right: 20px;
+    margin: 0 20px 20px 0;
 }
 
 #logo {
